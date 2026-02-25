@@ -1,0 +1,4 @@
+.env
+.env.bkp
+node_modules
+shopify.app.toml

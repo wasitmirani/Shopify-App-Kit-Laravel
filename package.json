@@ -1,0 +1,39 @@
+{
+    "name": "Iconito-V2",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "shopify dev": "shopify app dev",
+        "shopify build": "shopify app build",
+        "shopify": "shopify",
+        "info": "shopify app info",
+        "scaffold": "shopify app scaffold",
+        "deploy": "shopify app deploy",
+        "development": "mix",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.18.6",
+        "@vitejs/plugin-react": "^3.1.0",
+        "axios": "^1.3.4",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^0.7.2",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@shopify/app-bridge": "^3.7.4",
+        "@shopify/app-bridge-react": "^3.7.4",
+        "@shopify/polaris": "^10.50.1",
+        "@shopify/polaris-icons": "^6.12.0",
+        "crisp-sdk-web": "^1.0.18",
+        "jquery": "^3.6.4",
+        "react": "^17.0.2",
+        "react-color": "^2.19.3",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.10.0",
+        "react-toastify": "^9.1.2",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    }
+}

@@ -1,0 +1,129 @@
+.icon_preview {
+    background-color: #F4F5F7;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.tb-icon-block-container {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.tb-icon-block-container .tb-icon-block {
+    flex-basis: 0;
+}
+
+.mobile_view .tb-icon-block-container {
+    max-width: 375px !important;
+
+    margin: 0px auto !important;
+}
+
+
+.tb_horizontal .tb-icon-block-icon {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.tb_horizontal .tb-icon-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.tb_vertical .tb-icon-block-icon {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.tb_vertical .tb-icon-img-container {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    fill: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.tb_vertical .tb-icon-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+.tb-header-title {
+    /* margin: 10px auto; */
+    /*margin: 10px 10px;*/
+    /*margin: 0% 12% !important;*/
+    background-color: white;
+}
+
+.tb-icon-block-wrapper {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: fit-content;
+}
+
+.tb-icon-block-container .tb-icon-block {
+    flex-basis: 0;
+}
+
+.tb-icon-block {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+
+.tb-icon-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+
+.preview-image-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.tb-icon-content .tb-icon-block-icon-title {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 300;
+}
+
+.tb-icon-content .tb-icon-block-icon-subtitle {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 300;
+}
+
+.preview-image-wrapper > svg{
+    width: 100% !important;
+    height: 100% !important;
+}
