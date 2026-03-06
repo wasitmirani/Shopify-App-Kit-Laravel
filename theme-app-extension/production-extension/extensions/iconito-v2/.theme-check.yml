@@ -1,3 +1,0 @@
-# Allow iconito-front.js up to 400KB (Shopify default is 10KB)
-AssetSizeAppBlockJavaScript:
-  threshold_in_bytes: 400000
